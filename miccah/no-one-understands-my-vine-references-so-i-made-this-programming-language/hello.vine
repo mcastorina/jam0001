@@ -1,0 +1,51 @@
+This "code" prints Hello, world! to stdout.
+
+These bytes will be put onto the stack (in reverse order), then popped
+off and written to stdout (file descriptor 1) in a loop.
+72 101 108 108 111 44 32 119 111 114 108 100 33
+
+Hi, welcome to Chili's!
+
+Eh. Double cheeked up on a Thursday afternoon. Double cheeked up on a Thursday afternoon. Hey Ron. // 5
+Wow.
+
+Look at all those chickens! Look at all those chickens!
+Let's go to the beach beach! // 10
+Eh. Hey Ron.  The volume in this bus is astronomical. Hey Ron.
+Let's go to the beach beach! // 33
+Oooh, Hey Billy.
+Let's go to the beach beach! // 100
+Look at all those chickens! Hey Ron, Hey Ron, Hey Ron.
+Let's go to the beach beach! // 108
+Look at all those chickens! Hey Ron.
+Let's go to the beach beach! // 114
+Hey Billy.  Hey Billy.  Hey Billy.
+Let's go to the beach beach! // 111
+Look at all those chickens! Look at all those chickens! Hey Billy. Hey Billy.
+Let's go to the beach beach! // 119
+Eh. Hey Ron, The volume in this bus is astronomical.
+Let's go to the beach beach! // 32
+Look at all those chickens!  Look at all those chickens! Hey Ron. Hey Ron.
+Let's go to the beach beach! // 44
+Oooh, Look at all those chickens! Look at all those chickens!
+Let's go to the beach beach! // 111
+Hey Billy, Hey Billy, Hey Billy!!
+Let's go to the beach beach! // 108
+Let's go to the beach beach! // 108
+Oooh!
+Let's go to the beach beach! // 101
+Eh. Hey Ron, The volume in this bus is astronomical. Look at all those chickens! Hey Billy is Double cheeked up on a Thursday afternoon.
+Let's go to the beach beach! // 72
+
+Eh. Wow.
+
+Hey Ron. Hey Ron. Double cheeked up on a Thursday afternoon!
+Road work ahead?
+    Wow.
+    I can't swim but Wow,
+    Let's go to the beach beach!
+    Eh, Wow.
+    ..And they were roomates!
+    I can't swim!
+    Hey Billy
+Yeah I sure hope it does.

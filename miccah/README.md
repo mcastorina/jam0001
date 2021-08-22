@@ -41,7 +41,7 @@ Additional input between or surrounding the opcodes are ignored.
 | Chris! Is that a weed?? | `primary = 911` | yes |
 | Oooh | `primary = 101` | yes |
 | The volume in this bus is astronomical | `primary = pow(primary, secondary)` | yes |
-| Double cheeked up on a Thursday afternoon, | `primary = primary * 2` | yes |
+| Double cheeked up on a Thursday afternoon | `primary = primary * 2` | yes |
 | Look at all those chickens! | `primary = primary + secondary` | yes |
 | It is Wednesday my dudes | `primary = primary ^ secondary` (XOR) | yes |
 | Road work ahead? | Loop start | yes |
@@ -56,7 +56,7 @@ Additional input between or surrounding the opcodes are ignored.
 | And they were roomates | write byte in `primary` to file descriptor in `secondary` | yes |
 | ELLO SUSIE | read byte into `primary` form file descriptor in `secondary` | yes |
 | IMMA BUY ME A SUBARU | call function | no |
-| I don't even know which way the Quiznos is, | `break` from loop | yes |
+| I don't even know which way the Quiznos is | `break` from loop | yes |
 | I can't believe you've done this | open port number in `primary` | no |
 | A child | close port number in `primary` | no |
 | No off-topic questions | `panic` | yes |
