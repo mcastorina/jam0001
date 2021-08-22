@@ -244,12 +244,14 @@ impl Vm {
             TokenKind::Write => {
                 let mut f = unsafe { File::from_raw_fd(self.secondary as i32) };
                 f.write(&[self.primary as u8]).map_err(|_| "Write failed")?;
+                std::mem::forget(f);
             }
             TokenKind::Read => {
                 let mut f = unsafe { File::from_raw_fd(self.secondary as i32) };
                 let mut buf = [0; 1];
                 f.read_exact(&mut buf).map_err(|_| "Read failed")?;
                 self.primary = buf[0] as i64;
+                std::mem::forget(f);
             }
             TokenKind::PortClose => {
                 // TODO
